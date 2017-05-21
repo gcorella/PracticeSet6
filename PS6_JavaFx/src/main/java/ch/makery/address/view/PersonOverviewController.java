@@ -22,6 +22,7 @@ public class PersonOverviewController {
     @FXML
     private TableColumn<Person, String> lastNameColumn;
 
+    
     @FXML
     private Label firstNameLabel;
     @FXML

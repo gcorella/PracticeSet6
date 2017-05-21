@@ -36,6 +36,7 @@ public class MainApp extends Application {
     private Stage primaryStage;
     private BorderPane rootLayout;
     
+    
     /**
      * The data as an observable list of Persons.
      */

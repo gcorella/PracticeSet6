@@ -121,6 +121,7 @@ public class PersonDAL {
 
 			session.update(per);
 
+			
 			tx.commit();
 		} catch (HibernateException e) {
 			if (tx != null)
