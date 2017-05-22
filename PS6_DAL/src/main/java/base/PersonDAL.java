@@ -46,7 +46,6 @@ public class PersonDAL {
 			for (Iterator iterator = persons.iterator(); iterator.hasNext();) {
 				PersonDomainModel per = (PersonDomainModel) iterator.next();
 				pers.add(per);
-
 			}
 
 			tx.commit();

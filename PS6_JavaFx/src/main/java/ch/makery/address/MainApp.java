@@ -42,6 +42,7 @@ public class MainApp extends Application {
      */
     private ObservableList<Person> personData = FXCollections.observableArrayList();
 
+    
     /**
      * Constructor
      */
